@@ -6,6 +6,9 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hero-section{
@@ -13,6 +16,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 50px 90px;
+    flex: 1;
 }
 
 .hero-section header{
@@ -30,6 +34,7 @@ body{
     font-size: 18px;
     color: #efe7eb;
     list-style-type: none;
+    cursor: pointer;
 }
 
 .hero-section .left-links{
@@ -161,4 +166,14 @@ body{
 
 .right-wrapper-signup button{
     border: 1px solid white;
+}
+
+
+/* footer */
+
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 20px;
+    text-align: center;
 }
