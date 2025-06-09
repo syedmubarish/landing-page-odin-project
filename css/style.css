@@ -12,13 +12,13 @@ body{
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
+    padding: 50px 90px;
 }
 
 .hero-section header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 90px;
 }
 
 .hero-section header ul{
@@ -39,7 +39,6 @@ body{
 
 .inner-hero{
     margin: 20px 0px;
-    padding: 10px 90px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -74,10 +73,52 @@ body{
 }
 
 .right-hero{
-    width: 500px;
+    max-width: 500px;
+    overflow: hidden;
 }
 
 .right-hero img{
     object-fit: cover;
-    width: 500px;
+    width: 100%;
+    height: 100%;
+}
+
+/* Information section */
+
+.info-section{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 90px;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 10px;
+}
+
+.info-section h2{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.card-container{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+.card-container .card img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    border: 2px solid #3882F6;
+    padding: 15px;
+    border-radius: 9px;
+}
+
+.card p{
+    font-size: 12px;
+    text-align: center;
 }
