@@ -122,3 +122,19 @@ body{
     font-size: 12px;
     text-align: center;
 }
+
+.quote-section{
+    margin: 20px 0px;
+    padding: 50px 120px;
+    background-color: #e5e7eb;
+}
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+.quoted{
+    margin-top: 7vh;
+    text-align: end;
+}
