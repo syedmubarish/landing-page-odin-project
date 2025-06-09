@@ -88,7 +88,7 @@ body{
 .info-section{
     display: flex;
     flex-direction: column;
-    padding: 50px 90px;
+    padding: 50px 120px;
     align-items: center;
     gap: 30px;
     margin: 20px 10px;
