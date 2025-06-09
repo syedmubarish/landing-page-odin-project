@@ -63,7 +63,7 @@ body{
     flex: 1;
 }
 
-.left-hero button{
+.btn{
     background-color: #3882F6;
     color: white;
     border: none;
@@ -137,4 +137,28 @@ body{
 .quoted{
     margin-top: 7vh;
     text-align: end;
+}
+
+/* Sign up section */
+
+.signup-section{
+    background-color: #3882F6;
+    margin: 50px 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.left-wrapper-signup{
+    color: white;
+}
+
+.left-wrapper-signup p{
+    font-size: 13px;
+}
+
+.right-wrapper-signup button{
+    border: 1px solid white;
 }
